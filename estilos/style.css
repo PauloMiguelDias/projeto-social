@@ -36,3 +36,24 @@ main{
     width: 269px;
     border: none;
 }
+
+#redes-socias img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.304);
+    box-sizing: border-box;
+}
+
+#redes-socias{
+    display:  flex;
+    flex-direction:  column;
+    text-align: right;
+}
+
+#redes-socias img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.756);
+    transform: translate(-2px, -2px);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.149);
+    transition: transform .5s;
+}
